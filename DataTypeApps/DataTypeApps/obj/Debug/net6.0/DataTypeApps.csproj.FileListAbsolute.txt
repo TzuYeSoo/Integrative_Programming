@@ -1,0 +1,15 @@
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\bin\Debug\net6.0\DataTypeApps.exe
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\bin\Debug\net6.0\DataTypeApps.deps.json
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\bin\Debug\net6.0\DataTypeApps.runtimeconfig.json
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\bin\Debug\net6.0\DataTypeApps.dll
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\bin\Debug\net6.0\DataTypeApps.pdb
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.csproj.AssemblyReference.cache
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.AssemblyInfoInputs.cache
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.AssemblyInfo.cs
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.csproj.CoreCompileInputs.cache
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.dll
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\refint\DataTypeApps.dll
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.pdb
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\DataTypeApps.genruntimeconfig.cache
+C:\Users\samaniego.287741\source\repos\DataTypeApps\DataTypeApps\obj\Debug\net6.0\ref\DataTypeApps.dll
