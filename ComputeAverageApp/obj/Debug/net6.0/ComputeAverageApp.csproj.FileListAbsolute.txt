@@ -1,0 +1,15 @@
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\bin\Debug\net6.0\ComputeAverageApp.exe
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\bin\Debug\net6.0\ComputeAverageApp.deps.json
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\bin\Debug\net6.0\ComputeAverageApp.runtimeconfig.json
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\bin\Debug\net6.0\ComputeAverageApp.dll
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\bin\Debug\net6.0\ComputeAverageApp.pdb
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.csproj.AssemblyReference.cache
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.AssemblyInfoInputs.cache
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.AssemblyInfo.cs
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.csproj.CoreCompileInputs.cache
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.dll
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\refint\ComputeAverageApp.dll
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.pdb
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ComputeAverageApp.genruntimeconfig.cache
+C:\Users\samaniego.287741\source\repos\ComputeAverageApp\ComputeAverageApp\obj\Debug\net6.0\ref\ComputeAverageApp.dll
