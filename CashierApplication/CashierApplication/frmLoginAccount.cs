@@ -16,22 +16,23 @@ namespace CashierApplication
         {
             InitializeComponent();
         }
-        static double price, discount, quantity;
 
+        private void frmLoginAccount_Load(object sender, EventArgs e)
+        {
 
+        }
 
         private void Login_Click(object sender, EventArgs e)
         {
-           // if (Login.Text.Equals("Jessie") && pass.Text.Equals("Pogi"))
-           // {
-                frmPurchasedDiscountedItem frmp = new frmPurchasedDiscountedItem();
-                frmp.Show();
+
+            Cashier user = new Cashier("Jessie Samaniego","Cashier", users.Text, pass.Text);
+
+            if (user.validateLogin(users.Text, pass.Text))
+            {
+                frmPurchasedDiscountedItem frm = new frmPurchasedDiscountedItem();
+                frm.Show();
                 this.Hide();
-            //}
-           // else
-           // {
-                MessageBox.Show("Invalid Inputs");
-           // }
+            }
         }
     }
 }

@@ -1,42 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CashierApplication
 {
-    internal class Cashier : ACashier
+    
+    internal class Cashier : UserAccount
     {
-        private double discounted_price, item_discount, change, payment_amount;
-        private int Quantity;
+        private string department;
 
-        public Cashier(string name, double price, int quantity, double discount)
+        public Cashier(string Name, string deparment, string uName, string password) : base(Name, uName, password)
         {
-            this.item_name = name;
-            this.item_discount = price;
-            this.Quantity = quantity;
-            this.discounted_price = discount;
-        }
-        public override double getTotalPrice()
-        {
-            discounted_price = discounted_price * 0.01 ;
-            item_discount = item_discount - (item_discount * discounted_price);
-            Total_Price = item_discount * Quantity;
 
-            return Total_Price;
-            
         }
-        public override double getChange()
+        public override bool validateLogin(string Uname, string password)
         {
-            change = payment_amount - Total_Price;
-            return change;
+            if (Uname.Equals("Jessie") && password.Equals("Pogi"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-        public override void setPayment(double amount)
+        public string getDepartment()
         {
-            payment_amount = amount;
+            return department;
         }
-
+        public string getFullName()
+        {
+            return full_name;
+        }
     }
 }

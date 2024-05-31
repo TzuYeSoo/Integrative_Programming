@@ -45,6 +45,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.itemName = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.pogiKoBatGanonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.signOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitApplicaationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -196,6 +201,39 @@
             this.label7.TabIndex = 22;
             this.label7.Text = "Item";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pogiKoBatGanonToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(359, 24);
+            this.menuStrip1.TabIndex = 23;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // pogiKoBatGanonToolStripMenuItem
+            // 
+            this.pogiKoBatGanonToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.signOutToolStripMenuItem,
+            this.exitApplicaationToolStripMenuItem});
+            this.pogiKoBatGanonToolStripMenuItem.Name = "pogiKoBatGanonToolStripMenuItem";
+            this.pogiKoBatGanonToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
+            this.pogiKoBatGanonToolStripMenuItem.Text = "Pogi ko bat ganon";
+            // 
+            // signOutToolStripMenuItem
+            // 
+            this.signOutToolStripMenuItem.Name = "signOutToolStripMenuItem";
+            this.signOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.signOutToolStripMenuItem.Text = "Sign Out";
+            this.signOutToolStripMenuItem.Click += new System.EventHandler(this.signOutToolStripMenuItem_Click);
+            // 
+            // exitApplicaationToolStripMenuItem
+            // 
+            this.exitApplicaationToolStripMenuItem.Name = "exitApplicaationToolStripMenuItem";
+            this.exitApplicaationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitApplicaationToolStripMenuItem.Text = "Exit Applicaation";
+            this.exitApplicaationToolStripMenuItem.Click += new System.EventHandler(this.exitApplicaationToolStripMenuItem_Click);
+            // 
             // frmPurchasedDiscountedItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,9 +256,13 @@
             this.Controls.Add(this.Compute_Disc);
             this.Controls.Add(this.txPriced);
             this.Controls.Add(this.txQuan);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmPurchasedDiscountedItem";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmPurchasedDiscountedItem_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -245,5 +287,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox itemName;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem pogiKoBatGanonToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem signOutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitApplicaationToolStripMenuItem;
     }
 }
