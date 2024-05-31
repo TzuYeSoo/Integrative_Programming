@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.user = new System.Windows.Forms.TextBox();
+            this.users = new System.Windows.Forms.TextBox();
             this.pass = new System.Windows.Forms.TextBox();
             this.Login = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // user
+            // users
             // 
-            this.user.Location = new System.Drawing.Point(26, 39);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(128, 20);
-            this.user.TabIndex = 0;
+            this.users.Location = new System.Drawing.Point(26, 39);
+            this.users.Name = "users";
+            this.users.Size = new System.Drawing.Size(128, 20);
+            this.users.TabIndex = 0;
             // 
             // pass
             // 
@@ -86,9 +86,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Login);
             this.Controls.Add(this.pass);
-            this.Controls.Add(this.user);
+            this.Controls.Add(this.users);
             this.Name = "frmLoginAccount";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmLoginAccount_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,7 +97,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox user;
+        private System.Windows.Forms.TextBox users;
         private System.Windows.Forms.TextBox pass;
         private System.Windows.Forms.Button Login;
         private System.Windows.Forms.Label label1;

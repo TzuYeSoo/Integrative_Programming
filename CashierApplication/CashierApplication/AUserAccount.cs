@@ -8,6 +8,8 @@ namespace CashierApplication
 {
     internal abstract class AUserAccount
     {
+        public abstract bool validateLogin(string Uname, string password);
+
 
     }
 }

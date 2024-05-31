@@ -47,8 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cashier.cs" />
+    <Compile Include="item.cs" />
     <Compile Include="AUserAccount.cs" />
-    <Compile Include="ACashier.cs" />
+    <Compile Include="Aitem.cs" />
     <Compile Include="UserAccount.cs" />
     <Compile Include="frmPurchasedDiscountedItem.cs">
       <SubType>Form</SubType>

@@ -17,14 +17,11 @@ namespace CashierApplication
         {
             InitializeComponent();
         }
-        private Cashier cs;
+        private item cs;
         private void Compute_Disc_Click(object sender, EventArgs e)
         {
-            cs = new Cashier(itemName.Text, Convert.ToDouble(txPriced.Text), Convert.ToInt16(txQuan.Text), Convert.ToDouble(Disc.Text));
-            TotalPrice.Text = cs.getTotalPrice().ToString();
-            
-
-            
+            cs = new item(itemName.Text, Convert.ToDouble(txPriced.Text), Convert.ToInt16(txQuan.Text), Convert.ToDouble(Disc.Text));
+            TotalPrice.Text = cs.getTotalPrice().ToString();   
         }
 
         private void frmPurchasedDiscountedItem_Load(object sender, EventArgs e)
@@ -36,6 +33,18 @@ namespace CashierApplication
         {
             cs.setPayment(Convert.ToDouble(textBox1.Text));
             ChangeCus.Text = cs.getChange().ToString();
+        }
+
+        private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLoginAccount f1 = new frmLoginAccount();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void exitApplicaationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
